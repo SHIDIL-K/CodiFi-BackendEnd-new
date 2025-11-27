@@ -45,7 +45,12 @@ SECRET_KEY = 'django-insecure-!6+s71_jnmd(-ihl5@2l)u-#p*ats(-3)=0a3+8@pe*c@o-8*=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = [
+    "codifi-backendend-new.onrender.com",
+    "127.0.0.1",
+    "localhost"
+]
+
 
 
 # Application definition
